@@ -1,0 +1,19 @@
+[bootstrap.mise_shell_activate]
+bashrc = {enabled = true, mode = "activate"}
+
+[dotfiles]
+# Link this repo's mise.toml to ~/.config.mise/config.toml
+"~/.config/mise/config.toml" = "mise.toml"
+
+# Override default mise install/cache directories
+"~/.bashrc/mise-storage" = { block = '''
+export MISE_STORAGE_OVERRIDE_DIR=/build/${USER}
+export MISE_DATA_DIR="${MISE_STORAGE_OVERRIDE_DIR}/mise-${USER}/data"
+export MISE_CACHE_DIR="${MISE_STORAGE_OVERRIDE_DIR}/mise-${USER}/cache"
+''' }
+
+[tools]
+# Define tools to install
+# rust = "latest"
+just = "latest"
+# "cargo:just-lsp" = "latest"
