@@ -38,10 +38,8 @@ qcode() {
       local parent_dir
       parent_dir=$(dirname "$repo")
       code "$parent_dir"
-      cd "$parent_dir"
     else
       code "$repo"
-      cd "$repo"
     fi
   fi
 }
