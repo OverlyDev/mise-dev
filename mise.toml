@@ -82,13 +82,13 @@ postinstall = [
 "cargo:just-lsp" = "0.4.8"
 
 # For Todo Tree extension and other ripgrep purposes
-"aqua:BurntSushi/ripgrep" = "15.1.0"
+"aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.11.28"
+"aqua:astral-sh/uv" = "0.11.29"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.107.0"
+"gitlab:gitlab-org/cli" = "1.108.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
