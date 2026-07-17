@@ -15,26 +15,44 @@ export MISE_DATA_DIR="${MISE_STORAGE_OVERRIDE_DIR}/mise-${USER}/data"
 export MISE_CACHE_DIR="${MISE_STORAGE_OVERRIDE_DIR}/mise-${USER}/cache"
 ''' }
 
-# # Override default mise install/cache directories
-# "~/.bashrc/mise-completion" = { block = '''
-# MISE_BASH_COMPS="${XDG_DATA_HOME:-$HOME/.local/share}/mise-completions/bash"
-# if [ -d "$MISE_BASH_COMPS" ]; then
-#     for comp_file in "$MISE_BASH_COMPS"/*.bash; do
-#         [ -f "$comp_file" ] && source "$comp_file"
-#     done
-# fi
-# ''' }
+# Helper to open ghq repo in vscode
+"~/.bashrc/qcode" = { block = '''
+qcode() {
+  local parent_mode=false
+  local query=""
 
-# "~/.bashrc/mise-completion" = { block = '''
-# if command -v mise &> /dev/null; then
-#   source <(mise completion bash --include-bash-completion-lib)
-# fi
-# ''' }
+  # Check if the first argument is the parent flag
+  if [ "$1" = "-p" ]; then
+    parent_mode=true
+    query="$2"
+  else
+    query="$1"
+  fi
+
+  local repo
+  repo=$(ghq list --full-path | fzf --exact --query="$query" --select-1 --exit-0)
+
+  if [ -n "$repo" ]; then
+    if [ "$parent_mode" = true ]; then
+      # Extracts the parent directory (e.g., handles the owner/org folder)
+      local parent_dir
+      parent_dir=$(dirname "$repo")
+      code "$parent_dir"
+      cd "$parent_dir"
+    else
+      code "$repo"
+      cd "$repo"
+    fi
+  fi
+}
+''' }
 
 [env]
 # Forces the sync utility to use the standard Linux bash-completion user directory
-MISE_COMPLETIONS_SYNC_BASH_DIR = "${HOME}/.local/share/bash-completion/completions"
+MISE_COMPLETIONS_SYNC_BASH_DIR = "{{env.HOME}}/.local/share/bash-completion/completions"
 
+# Set root dir for ghq-cloned repos
+GHQ_ROOT = "{{env.HOME}}/repos"
 
 [tasks.upgrade]
 description = "Upgrades mise + tools, prunes old versions"
@@ -78,3 +96,9 @@ postinstall = [
 
 # For container stuff
 "aqua:hadolint/hadolint" = "2.14.0"
+
+# Structured git repo cloning
+"aqua:x-motemen/ghq" = "1.10.1"
+
+# Fuzzy finding
+"aqua:junegunn/fzf" = "0.74.0"
