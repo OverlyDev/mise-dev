@@ -31,6 +31,13 @@ For extensions that still don't work, point them manually to the binary at:
 - `$MISE_DATA_DIR/shims/<binary name>`
   - Note: Use the full/resolved path, no variables
 
+### Updates
+
+In order to apply changes made to `mise.toml`, from this repo directory run:
+
+- Tool changes: `mise install`
+- Boostrap/dotfiles changes: `exec bash install.sh`
+
 ### Uninstall
 
 1. Run uninstall script: `exec bash uninstall.sh`
