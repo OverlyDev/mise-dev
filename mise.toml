@@ -1,5 +1,21 @@
 min_version = "2026.7.6"
 
+[settings]
+# Skip re-evaluating the environment if checked within <value>
+hook_env.cache_ttl = "10s"
+
+# Only re-evaluate environment variables when changing directories
+hook_env.chpwd_only = true
+
+# Cache the output of environment plugins and evaluation scripts
+env_cache = true
+
+# Prefer locally cached data and avoid remote version fetching when possible
+prefer_offline = true
+
+# Change cargo home dir
+rust.cargo_home="/tmp/cargo"
+
 [bootstrap.mise_shell_activate]
 bashrc = {enabled = true, mode = "activate"}
 bash_profile = {enabled = true, mode = "shims"}
