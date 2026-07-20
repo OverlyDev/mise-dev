@@ -16,11 +16,11 @@ env_cache = true
 prefer_offline = true
 
 # Change cargo home dir
-rust.cargo_home="/tmp/cargo"
+rust.cargo_home = "/tmp/cargo"
 
 [bootstrap.mise_shell_activate]
-bashrc = {enabled = true, mode = "activate"}
-bash_profile = {enabled = true, mode = "shims"}
+bashrc = { enabled = true, mode = "activate" }
+bash_profile = { enabled = true, mode = "shims" }
 
 [dotfiles]
 # Link this repo's mise.toml to ~/.config.mise/config.toml
@@ -72,11 +72,7 @@ GHQ_ROOT = "{{env.HOME}}/repos"
 
 [tasks.upgrade]
 description = "Upgrades mise + tools, prunes old versions"
-run = [
-  "mise self-update",
-  "mise upgrade --bump",
-  "mise prune"
-]
+run = ["mise self-update", "mise upgrade --bump", "mise prune"]
 
 [hooks]
 # Install/setup completions
