@@ -72,7 +72,7 @@ GHQ_ROOT = "{{env.HOME}}/repos"
 
 [tasks.upgrade]
 description = "Upgrades mise + tools, prunes old versions"
-run = ["mise self-update", "mise upgrade --bump", "mise prune"]
+run = ["mise self-update", "mise upgrade --bump", "mise prune -y"]
 
 [hooks]
 # Install/setup completions
@@ -87,7 +87,7 @@ rust = "1.97.1"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.10"
-"aqua:jdx/usage" = "latest"
+"aqua:jdx/usage" = "3.5.5"
 
 # For just and just accessories
 "aqua:casey/just" = "1.57.0"
