@@ -69,14 +69,14 @@ postinstall = [
 
 [tools]
 # Required for cargo: types
-"core:rust" = "1.97.0"
+rust = "1.97.1"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.10"
 "aqua:jdx/usage" = "latest"
 
 # For just and just accessories
-"aqua:casey/just" = "1.56.0"
+"aqua:casey/just" = "1.57.0"
 "cargo:just-lsp" = "0.4.8"
 
 # For Todo Tree extension and other ripgrep purposes
@@ -99,4 +99,4 @@ postinstall = [
 "aqua:x-motemen/ghq" = "1.10.1"
 
 # Fuzzy finding
-"aqua:junegunn/fzf" = "0.74.0"
+"aqua:junegunn/fzf" = "0.74.1"
