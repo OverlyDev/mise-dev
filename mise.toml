@@ -114,3 +114,7 @@ rust = "1.97.1"
 
 # Fuzzy finding
 "aqua:junegunn/fzf" = "0.74.1"
+
+# Documents as code
+"aqua:typst/typst" = "0.15.1"
+"aqua:Enter-tainer/typstyle" = "0.15.0"
