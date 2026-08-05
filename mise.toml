@@ -86,35 +86,35 @@ postinstall = [
 rust = "1.97.1"
 
 # Magic completions?
-"cargo:mise-completions-sync" = "0.5.10"
-"aqua:jdx/usage" = "4.0.0"
+"cargo:mise-completions-sync" = "0.5.15"
+"aqua:jdx/usage" = "5.0.0"
 
 # For just and just accessories
-"aqua:casey/just" = "1.57.0"
-"cargo:just-lsp" = "0.5.0"
+"aqua:casey/just" = "1.58.0"
+"cargo:just-lsp" = "0.6.1"
 
 # For Todo Tree extension and other ripgrep purposes
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.11.32"
+"aqua:astral-sh/uv" = "0.12.1"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.109.0"
+"gitlab:gitlab-org/cli" = "1.112.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
 "aqua:evilmartians/lefthook" = "2.1.10"
 
 # For container stuff
-"aqua:hadolint/hadolint" = "2.14.0"
+"aqua:hadolint/hadolint" = "2.15.1"
 
 # Structured git repo cloning
 "aqua:x-motemen/ghq" = "1.10.1"
 
 # Fuzzy finding
-"aqua:junegunn/fzf" = "0.74.1"
+"aqua:junegunn/fzf" = "0.74.2"
 
 # Documents as code
 "aqua:typst/typst" = "0.15.1"
-"aqua:Enter-tainer/typstyle" = "0.15.0"
+"aqua:Enter-tainer/typstyle" = "0.15.1"
