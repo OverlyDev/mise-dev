@@ -87,7 +87,7 @@ rust = "1.97.1"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.15"
-"aqua:jdx/usage" = "5.0.0"
+"aqua:jdx/usage" = "5.1.0"
 
 # For just and just accessories
 "aqua:casey/just" = "1.58.0"
@@ -97,7 +97,7 @@ rust = "1.97.1"
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.12.1"
+"aqua:astral-sh/uv" = "0.12.3"
 
 # For GitLab stuff
 "gitlab:gitlab-org/cli" = "1.112.0"
