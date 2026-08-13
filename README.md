@@ -36,7 +36,9 @@ For extensions that still don't work, point them manually to the binary at:
 In order to apply changes made to `mise.toml`, from this repo directory run:
 
 - Tool changes: `mise install`
-- Boostrap/dotfiles changes: `exec bash install.sh`
+- Boostrap/dotfiles changes:
+  - `exec bash install.sh` - The whole thing
+  - `mise bootstrap apply dotfiles` - Just the dotfiles section
 
 ### Uninstall
 
