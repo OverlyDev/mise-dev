@@ -59,6 +59,9 @@ qcode() {
     else
       code "$repo"
     fi
+  else
+    echo "failed to find repo/dir: $query"
+    return 1
   fi
 }
 ''' }
@@ -91,7 +94,7 @@ rust = "1.97.1"
 
 # For just and just accessories
 "aqua:casey/just" = "1.58.0"
-"cargo:just-lsp" = "0.6.1"
+"cargo:just-lsp" = "0.6.2"
 
 # For Todo Tree extension and other ripgrep purposes
 "aqua:BurntSushi/ripgrep" = "15.2.0"
@@ -100,7 +103,7 @@ rust = "1.97.1"
 "aqua:astral-sh/uv" = "0.12.3"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.112.0"
+"gitlab:gitlab-org/cli" = "1.113.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
