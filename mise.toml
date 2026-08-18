@@ -75,7 +75,7 @@ GHQ_ROOT = "{{env.HOME}}/repos"
 
 [tasks.upgrade]
 description = "Upgrades mise + tools, prunes old versions"
-run = ["mise self-update", "mise upgrade --bump", "mise prune -y"]
+run = ["mise self-update -y", "mise upgrade --bump", "mise prune -y"]
 
 [hooks]
 # Install/setup completions
@@ -100,7 +100,7 @@ rust = "1.97.1"
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.12.3"
+"aqua:astral-sh/uv" = "0.12.5"
 
 # For GitLab stuff
 "gitlab:gitlab-org/cli" = "1.113.0"
@@ -116,7 +116,7 @@ rust = "1.97.1"
 "aqua:x-motemen/ghq" = "1.10.1"
 
 # Fuzzy finding
-"aqua:junegunn/fzf" = "0.74.2"
+"aqua:junegunn/fzf" = "0.74.3"
 
 # Documents as code
 "aqua:typst/typst" = "0.15.1"
