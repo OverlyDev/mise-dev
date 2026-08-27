@@ -86,11 +86,11 @@ postinstall = [
 
 [tools]
 # Required for cargo: types
-rust = "1.97.1"
+rust = "1.98.0"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.15"
-"aqua:jdx/usage" = "5.1.0"
+"aqua:jdx/usage" = "6.4.1"
 
 # For just and just accessories
 "aqua:casey/just" = "1.58.0"
@@ -100,14 +100,14 @@ rust = "1.97.1"
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.12.5"
+"aqua:astral-sh/uv" = "0.12.6"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.113.0"
+"gitlab:gitlab-org/cli" = "1.115.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
-"aqua:evilmartians/lefthook" = "2.1.10"
+"aqua:evilmartians/lefthook" = "2.1.11"
 
 # For container stuff
 "aqua:hadolint/hadolint" = "2.15.1"
