@@ -90,7 +90,7 @@ rust = "1.98.1"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.16"
-"aqua:jdx/usage" = "6.11.1"
+"packslip:github.com/jdx/usage" = "6.11.1"
 
 # For just and just accessories
 "aqua:casey/just" = "1.58.0"
