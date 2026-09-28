@@ -120,4 +120,4 @@ rust = "1.98.1"
 
 # Documents as code
 "aqua:typst/typst" = "0.15.1"
-"aqua:Enter-tainer/typstyle" = "0.15.1"
+"aqua:typstyle-rs/typstyle" = "0.15.1"
