@@ -94,7 +94,7 @@ rust = "1.98.1"
 
 # For just and just accessories
 "aqua:casey/just" = "1.58.0"
-"cargo:just-lsp" = "0.9.0"
+"github:terror/just-lsp" = "0.9.0"
 
 # For Todo Tree extension and other ripgrep purposes
 "aqua:BurntSushi/ripgrep" = "15.2.0"
