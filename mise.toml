@@ -89,7 +89,7 @@ postinstall = [
 rust = "1.99.0"
 
 # Magic completions?
-"cargo:mise-completions-sync" = "0.5.18"
+"cargo:mise-completions-sync" = "0.5.19"
 "packslip:github.com/jdx/usage" = "6.12.1"
 
 # For just and just accessories
@@ -103,11 +103,11 @@ rust = "1.99.0"
 "aqua:astral-sh/uv" = "0.13.0"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.122.0"
+"gitlab:gitlab-org/cli" = "1.123.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
-"aqua:evilmartians/lefthook" = "2.2.1"
+"aqua:evilmartians/lefthook" = "2.2.2"
 
 # For container stuff
 "aqua:hadolint/hadolint" = "2.15.1"
@@ -120,4 +120,4 @@ rust = "1.99.0"
 
 # Documents as code
 "aqua:typst/typst" = "0.15.1"
-"aqua:typstyle-rs/typstyle" = "0.15.1"
+"aqua:typstyle-rs/typstyle" = "0.15.2"
