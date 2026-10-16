@@ -90,17 +90,17 @@ rust = "1.99.0"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.19"
-"packslip:github.com/jdx/usage" = "6.12.1"
+"packslip:github.com/jdx/usage" = "7.0.1"
 
 # For just and just accessories
-"aqua:casey/just" = "1.58.0"
+"aqua:casey/just" = "1.59.0"
 "github:terror/just-lsp" = "0.10.0"
 
 # For Todo Tree extension and other ripgrep purposes
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.13.0"
+"aqua:astral-sh/uv" = "0.13.1"
 
 # For GitLab stuff
 "gitlab:gitlab-org/cli" = "1.123.0"
