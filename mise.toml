@@ -86,11 +86,11 @@ postinstall = [
 
 [tools]
 # Required for cargo: types
-rust = "1.99.0"
+rust = "1.99.1"
 
 # Magic completions?
 "cargo:mise-completions-sync" = "0.5.19"
-"packslip:github.com/jdx/usage" = "7.0.1"
+"packslip:github.com/jdx/usage" = "7.0.2"
 
 # For just and just accessories
 "aqua:casey/just" = "1.59.0"
