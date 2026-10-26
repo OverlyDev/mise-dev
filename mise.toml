@@ -121,3 +121,4 @@ rust = "1.99.1"
 # Documents as code
 "aqua:typst/typst" = "0.15.1"
 "aqua:typstyle-rs/typstyle" = "0.15.2"
+cue = "0.17.1"
