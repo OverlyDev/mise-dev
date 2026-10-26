@@ -43,50 +43,50 @@ url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15
 url_api = "https://api.github.com/repos/BurntSushi/ripgrep/releases/assets/478119643"
 
 [[tools."aqua:astral-sh/uv"]]
-version = "0.13.1"
+version = "0.13.5"
 backend = "aqua:astral-sh/uv"
-specifiers = ["0.13.1"]
+specifiers = ["0.13.5"]
 
 [tools."aqua:astral-sh/uv"."platforms.linux-arm64"]
-checksum = "sha256:9041c73c99fdc5892cf128140beb354eca9231d502068cc36e6cb53a8e59ad14"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639312990"
+checksum = "sha256:4bb69cf95ed13f23713bb7bc09f241896ea0c75b7c557e615a20604b82f9c403"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664335837"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.linux-arm64-musl"]
-checksum = "sha256:345a8308e4d1835cdfaadf692836fd3137a6d45864773f05ad7bf59442b1ba16"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313013"
+checksum = "sha256:7906c79adb21c81abd559841ba76bb1d9af9d791acac7a041b2972e03ae16538"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664335857"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.linux-x64"]
-checksum = "sha256:eadd9d27c134ab5ac1ffd4473b97a741407f3ea238288f03121fc4deddf90220"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313223"
+checksum = "sha256:f68d291c75783122dad58ab77def0e13f3233f358731db5d6d7e8715603b928f"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664336023"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.linux-x64-musl"]
-checksum = "sha256:6c86040a8f045ab9adc9e3ec4cdafa03fd00e9a988ed2bf28971c7fc2d0debd0"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313248"
+checksum = "sha256:57ef9d9ccb01fb1bd998df995b0dd221b52f7d7841fbea93f2d4463bf61fb7a9"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664336027"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.macos-arm64"]
-checksum = "sha256:cfe454573412ff7380d15fc7dae5997ab53ffce72fce0a78e91ddbc84001acd2"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639312976"
+checksum = "sha256:743f85035a1996ecb350659e01cd9faea9709829be09b1b4b03c73eaf3c9cd73"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664335803"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.macos-x64"]
-checksum = "sha256:bb7b805bdcf3d0bc8c74ceb94569e6b3e8aa35bd492acdbb9d46bf46d9d4ff6b"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-apple-darwin.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313196"
+checksum = "sha256:b0f52b0e3945b4107d89024ea38e625683011fbfc05a0d98f9fa2d6dcee28c66"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664335993"
 provenance = "github-attestations"
 
 [tools."aqua:astral-sh/uv"."platforms.windows-x64"]
-checksum = "sha256:3b2661a463a5baea7f5076ea2b25ab71d77f36a6c0d809e5350651792f80a672"
-url = "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-pc-windows-msvc.zip"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/639313211"
+checksum = "sha256:a38b8d1902b7cfbc76b423ba1bb456f623f42064cdc72628b6075b89afd1019a"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-pc-windows-msvc.zip"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664336006"
 provenance = "github-attestations"
 
 [[tools."aqua:casey/just"]]
@@ -391,10 +391,7 @@ specifiers = ["0.5.19"]
 [[tools.cue]]
 version = "0.17.1"
 backend = "aqua:cue-lang/cue"
-specifiers = [
-    "0.17.1",
-    "latest",
-]
+specifiers = ["0.17.1"]
 
 [tools.cue."platforms.linux-arm64"]
 checksum = "sha256:0d729be30d52c952ca38fc9dcb692caa09d8463fa0b64df5781312779183fbcd"
@@ -472,89 +469,89 @@ url = "https://github.com/terror/just-lsp/releases/download/0.10.0/just-lsp-0.10
 url_api = "https://api.github.com/repos/terror/just-lsp/releases/assets/595785502"
 
 [[tools."gitlab:gitlab-org/cli"]]
-version = "1.123.0"
+version = "1.124.0"
 backend = "gitlab:gitlab-org/cli"
-specifiers = ["1.123.0"]
+specifiers = ["1.124.0"]
 
 [tools."gitlab:gitlab-org/cli"."platforms.linux-arm64"]
-checksum = "sha256:1f2d0a885b28d08de341a597b2eb7204ce03d4e67b008efecab9951e4b014f0c"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_linux_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_linux_arm64%2Etar%2Egz"
+checksum = "sha256:0716395a0efeb991fc844b33fe55310645afcbd9b9746e50c725e9d1cd1b8d16"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_linux_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_linux_arm64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.linux-arm64-musl"]
-checksum = "sha256:1f2d0a885b28d08de341a597b2eb7204ce03d4e67b008efecab9951e4b014f0c"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_linux_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_linux_arm64%2Etar%2Egz"
+checksum = "sha256:0716395a0efeb991fc844b33fe55310645afcbd9b9746e50c725e9d1cd1b8d16"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_linux_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_linux_arm64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.linux-x64"]
-checksum = "sha256:9c9ac4c2b74ec8709dec4819a4041050f3680c6aaa18f0ed30434081f4fe9bef"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_linux_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_linux_amd64%2Etar%2Egz"
+checksum = "sha256:63df684842b0697e418649dd64374d37ac1da0fbcdcb422d6a5557222f8bb40f"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_linux_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_linux_amd64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.linux-x64-musl"]
-checksum = "sha256:9c9ac4c2b74ec8709dec4819a4041050f3680c6aaa18f0ed30434081f4fe9bef"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_linux_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_linux_amd64%2Etar%2Egz"
+checksum = "sha256:63df684842b0697e418649dd64374d37ac1da0fbcdcb422d6a5557222f8bb40f"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_linux_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_linux_amd64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.macos-arm64"]
-checksum = "sha256:bf776ea47d3b30410267adab9c870990be274e85f6dccccee4289f5ecf1386df"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_darwin_arm64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_darwin_arm64%2Etar%2Egz"
+checksum = "sha256:04aad4d989d98cb030318e09359f02e0ba2637ede682ec0dee1f5974dedd44c1"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_darwin_arm64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_darwin_arm64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.macos-x64"]
-checksum = "sha256:599593a8fb22de1b0b76d7e487efcea565624a7beffb71d93ae2c7cca2563724"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_darwin_amd64.tar.gz"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_darwin_amd64%2Etar%2Egz"
+checksum = "sha256:6adb7155566bedd6272d8f286e6c75b080d0050a349de4bed79661226d10d954"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_darwin_amd64.tar.gz"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_darwin_amd64%2Etar%2Egz"
 
 [tools."gitlab:gitlab-org/cli"."platforms.windows-x64"]
-checksum = "sha256:a3dfe29f617f7d2100ae2aef73cc8ad82fbfee8392ffd99e190a4ba6b6d69d5e"
-url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.123.0/downloads/glab_1.123.0_windows_amd64.zip"
-url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E123%2E0/glab_1%2E123%2E0_windows_amd64%2Ezip"
+checksum = "sha256:9b58b54cf841b43215ef01ba90793d8a845e81ddb7b3dfa2b5a238cde4b77b34"
+url = "https://gitlab.com/gitlab-org/cli/-/releases/v1.124.0/downloads/glab_1.124.0_windows_amd64.zip"
+url_api = "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/packages/generic/glab/1%2E124%2E0/glab_1%2E124%2E0_windows_amd64%2Ezip"
 
 [[tools."packslip:github.com/jdx/usage"]]
-version = "7.0.2"
+version = "7.1.2"
 backend = "packslip:github.com/jdx/usage"
-specifiers = ["7.0.2"]
+specifiers = ["7.1.2"]
 
 [tools."packslip:github.com/jdx/usage"."platforms.linux-arm64"]
-checksum = "sha256:2950ac2fffc9be15b24991a785b5474745e14df8e7fffa8aa8715c4bd9c8cb58"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-aarch64-unknown-linux-gnu.tar.gz"
+checksum = "sha256:5171193a0397cc054d5e009cbaf51799598241b8175b4bfd91f8640bbfc91a7a"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-aarch64-unknown-linux-gnu.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.linux-arm64-musl"]
-checksum = "sha256:49f414e6c41ba37ba9ad2fd31e2ad50263ff7332e3ffe9fa1bc2ef5673f553d3"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-aarch64-unknown-linux-musl.tar.gz"
+checksum = "sha256:d4675f05c0a707b24e5b5bdac57c23b584209305e70adc11e616e8f26b36104f"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-aarch64-unknown-linux-musl.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.linux-x64"]
-checksum = "sha256:1006d9659fb0c9620525a8e750b3853177a3bf772454d5984c4d78c4aa130aaa"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-x86_64-unknown-linux-gnu.tar.gz"
+checksum = "sha256:185a79a3fb0cdc0a09e22bad5d197a47518ad3ea3cc5b6f1e53e9f7ae7908079"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-x86_64-unknown-linux-gnu.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.linux-x64-musl"]
-checksum = "sha256:a79a88c35175d4697188c43dac6e0bbea5943f4f1631a750c0f9d5b2149ef381"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-x86_64-unknown-linux-musl.tar.gz"
+checksum = "sha256:da9ce7c2c0220f336b7ade208c7755ae3dd137642f90f6ec460ba821d809754b"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-x86_64-unknown-linux-musl.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.macos-arm64"]
-checksum = "sha256:13fad4f828a7cb2ddc298f1dea38a3389d2144f63584134b9c3c7489944c3de3"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-universal-apple-darwin.tar.gz"
+checksum = "sha256:febcc62e79cf7278e532b36073847812711b4e6e9a381663ca796a52b772ba33"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-universal-apple-darwin.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.macos-x64"]
-checksum = "sha256:13fad4f828a7cb2ddc298f1dea38a3389d2144f63584134b9c3c7489944c3de3"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-universal-apple-darwin.tar.gz"
+checksum = "sha256:febcc62e79cf7278e532b36073847812711b4e6e9a381663ca796a52b772ba33"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-universal-apple-darwin.tar.gz"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
 [tools."packslip:github.com/jdx/usage"."platforms.windows-x64"]
-checksum = "sha256:91586495a99681b405c62a5c7c8f60dffca0d006834d3526520ced8527818cb5"
-url = "https://github.com/jdx/usage/releases/download/v7.0.2/usage-x86_64-pc-windows-msvc.zip"
+checksum = "sha256:061fe944671b7348d034ccaf016c457f896597dbddc18ee2d6858bd88bdb1519"
+url = "https://github.com/jdx/usage/releases/download/v7.1.2/usage-x86_64-pc-windows-msvc.zip"
 signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 repository_ids = { repository = "677629099" }
 
