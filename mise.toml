@@ -18,6 +18,9 @@ prefer_offline = true
 # Change cargo home dir
 rust.cargo_home = "/tmp/cargo"
 
+# I don't care about agent skills
+skills.fetch = false
+
 [bootstrap.mise_shell_activate]
 bashrc = { enabled = true, mode = "activate" }
 bash_profile = { enabled = true, mode = "shims" }
@@ -25,6 +28,11 @@ bash_profile = { enabled = true, mode = "shims" }
 [dotfiles]
 # Link this repo's mise.toml to ~/.config.mise/config.toml
 "~/.config/mise/config.toml" = "mise.toml"
+
+# Use mise to read ~/.config/github_tokens.toml and set token variable
+"~/.bashrc/mise-token" = { block = '''
+export MISE_GITHUB_TOKEN="$(mise token github --raw)"
+''' }
 
 # Override default mise install/cache directories
 "~/.bashrc/mise-storage" = { block = '''
