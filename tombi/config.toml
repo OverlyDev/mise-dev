@@ -1,0 +1,15 @@
+# Use global defaults for everything
+
+# Begin override for mise.toml
+[[overrides]]
+files = { include = ["**/mise.toml"] }
+
+[overrides.format]
+rules = {
+    indent-width = 2,
+    indent-sub-tables = true,
+    indent-table-key-value-pairs = true,
+    key-value-equals-sign-alignment = false, # Prevents multiline shell script issues
+    table-blank-lines = 2,
+}
+# End override for mise.toml
