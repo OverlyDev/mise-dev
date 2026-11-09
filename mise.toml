@@ -22,13 +22,13 @@ rust.cargo_home = "/tmp/cargo"
 skills.fetch = false
 
 [bootstrap.mise_shell_activate]
-bashrc = { enabled = true, mode = "activate" }
+bashrc       = { enabled = true, mode = "activate" }
 bash_profile = { enabled = true, mode = "shims" }
 
 [dotfiles]
 # Link this repo's mise.toml|mise.lock to ~/.config.mise/config.toml|mise.lock
 "~/.config/mise/config.toml" = "mise.toml"
-"~/.config/mise/mise.lock" = "mise.lock"
+"~/.config/mise/mise.lock"   = "mise.lock"
 
 # Link this repo's tombi/config.toml to ~/.config/tombi/config.toml
 "~/.config/tombi/config.toml" = "tombi/config.toml"
@@ -87,18 +87,18 @@ GHQ_ROOT = "{{env.HOME}}/repos"
 
 [tasks.upgrade]
 description = "Upgrades mise + tools, prunes old versions"
-run = ["mise self-update -y", "mise upgrade --bump", "mise prune -y"]
+run         = ["mise self-update -y", "mise upgrade --bump", "mise prune -y"]
 
 [tasks.lock]
 description = "Update/upgrade lockfile with a global context"
-dir = "~/.config/mise"
-run = ["mise lock --upgrade --global"]
+dir         = "~/.config/mise"
+run         = ["mise lock --upgrade --global"]
 
 [hooks]
 # Install/setup completions
 postinstall = [
-  "mise completion bash --include-bash-completion-lib > ${MISE_COMPLETIONS_SYNC_BASH_DIR}/mise",
-  "misecompsync --shell bash",
+    "mise completion bash --include-bash-completion-lib > ${MISE_COMPLETIONS_SYNC_BASH_DIR}/mise",
+    "misecompsync --shell bash",
 ]
 
 [tools]
@@ -106,11 +106,11 @@ postinstall = [
 rust = "1.99.1"
 
 # Magic completions?
-"cargo:mise-completions-sync" = "0.5.20"
+"cargo:mise-completions-sync"   = "0.5.20"
 "packslip:github.com/jdx/usage" = "7.3.0"
 
 # For just and just accessories
-"aqua:casey/just" = "1.59.0"
+"aqua:casey/just"        = "1.59.0"
 "github:terror/just-lsp" = "0.11.1"
 
 # For Todo Tree extension and other ripgrep purposes
@@ -136,6 +136,6 @@ rust = "1.99.1"
 "aqua:junegunn/fzf" = "0.75.0"
 
 # Documents as code
-"aqua:typst/typst" = "0.15.1"
+"aqua:typst/typst"          = "0.15.1"
 "aqua:typstyle-rs/typstyle" = "0.15.2"
-cue = "0.17.1"
+cue                         = "0.17.1"
