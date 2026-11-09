@@ -26,11 +26,12 @@ bashrc = { enabled = true, mode = "activate" }
 bash_profile = { enabled = true, mode = "shims" }
 
 [dotfiles]
-# Link this repo's mise.toml to ~/.config.mise/config.toml
+# Link this repo's mise.toml|mise.lock to ~/.config.mise/config.toml|mise.lock
 "~/.config/mise/config.toml" = "mise.toml"
-
-# Link this repo's mise.toml to ~/.config.mise/config.toml
 "~/.config/mise/mise.lock" = "mise.lock"
+
+# Link this repo's tombi/config.toml to ~/.config/tombi/config.toml
+"~/.config/tombi/config.toml" = "tombi/config.toml"
 
 # Use mise to read ~/.config/github_tokens.toml and set token variable
 "~/.bashrc/mise-token" = { block = '''
