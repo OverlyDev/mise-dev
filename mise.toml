@@ -85,6 +85,10 @@ GHQ_ROOT = "{{env.HOME}}/repos"
 description = "Upgrades mise + tools, prunes old versions"
 run = ["mise self-update -y", "mise upgrade --bump", "mise prune -y"]
 
+[tasks.lock]
+description = "Update/upgrade lockfile with a global context"
+run = ["mise lock --upgrade --global"]
+
 [hooks]
 # Install/setup completions
 postinstall = [
