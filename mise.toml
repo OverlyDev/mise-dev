@@ -123,8 +123,7 @@ rust = "1.99.1"
 "gitlab:gitlab-org/cli" = "1.130.0"
 
 # For commit hooks
-# TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
-"aqua:evilmartians/lefthook" = "2.2.2"
+"aqua:evilmartians/lefthook" = { version = "2.2.2", symlink_bins = true }
 
 # For container stuff
 "aqua:hadolint/hadolint" = "2.15.1"

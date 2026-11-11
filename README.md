@@ -44,3 +44,12 @@ In order to apply changes made to `mise.toml`, from this repo directory run:
 
 1. Run uninstall script: `exec bash uninstall.sh`
     - Same notes as above RE: `exec`
+
+## Notes
+
+`aqua:evilmartians/lefthook`
+- Using as-is, would end up with `lefthook` and `lefthook_<version>__Linux_x86_64` binaries/shims/whatever
+- To fix:
+  - Add `symlink_bins = true` to its entry in `mise.toml`
+  - Run `mise install aqua:evilmartians/lefthook --force`
+  - Run `mise reshim --force`
