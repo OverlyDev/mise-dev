@@ -97,8 +97,8 @@ run         = ["mise lock --upgrade --global"]
 [hooks]
 # Install/setup completions
 postinstall = [
-    "mise completion bash --include-bash-completion-lib > ${MISE_COMPLETIONS_SYNC_BASH_DIR}/mise",
-    "misecompsync --shell bash",
+  "mise completion bash --include-bash-completion-lib > ${MISE_COMPLETIONS_SYNC_BASH_DIR}/mise",
+  "misecompsync --shell bash",
 ]
 
 [tools]
