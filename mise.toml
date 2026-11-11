@@ -120,7 +120,7 @@ rust = "1.99.1"
 "aqua:astral-sh/uv" = "0.13.7"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.128.0"
+"gitlab:gitlab-org/cli" = "1.130.0"
 
 # For commit hooks
 # TODO: This adds two binaries: lefthook, lefthook_2.1.10_Linux_x86_64
