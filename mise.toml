@@ -33,7 +33,7 @@ bash_profile = { enabled = true, mode = "shims" }
 # Link this repo's tombi/config.toml to ~/.config/tombi/config.toml
 "~/.config/tombi/config.toml" = "tombi/config.toml"
 
-# Use mise to read ~/.config/github_tokens.toml and set token variable
+# Use mise to read ~/.config/mise/github_tokens.toml and set token variable
 "~/.bashrc/mise-token" = { block = '''
 export MISE_GITHUB_TOKEN="$(mise token github --raw)"
 ''' }

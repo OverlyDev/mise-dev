@@ -5,7 +5,13 @@
 ### Install
 
 1. Clone the repo
-1. Modify the `MISE_STORAGE_OVERRIDE_DIR` variable in the `[dotfiles]` section as required
+    - Doesn't matter where you clone it to, `mise.toml` is setup to symlink the required files to the right place
+1. Modify `mise.toml` as required
+    - `MISE_STORAGE_OVERRIDE_DIR` variable in the `[dotfiles]` section
+1. Set up GitHub auth for mise ([docs](https://mise.jdx.dev/dev-tools/github-tokens.html#token-files))
+    - Create a PAT (no repos or scopes required, auth only)
+    - Create/update `~/.config/mise/github_tokens.toml` with the PAT
+      - Be sure to `chmod 600 ~/.config/mise/github_tokens.toml`
 1. Run install script: `exec bash install.sh`
     - We use `exec` to replace our current shell after things get added/updated
     - This removes the requirement to close/reopen the terminal to load the changes
