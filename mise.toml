@@ -103,24 +103,24 @@ postinstall = [
 
 [tools]
 # Required for cargo: types
-rust = "1.99.1"
+rust = "1.100.0"
 
 # Magic completions?
 "cargo:mise-completions-sync"   = "0.5.20"
-"packslip:github.com/jdx/usage" = "7.3.0"
+"packslip:github.com/jdx/usage" = "7.4.0"
 
 # For just and just accessories
 "aqua:casey/just"        = "1.59.0"
-"github:terror/just-lsp" = "0.11.1"
+"github:terror/just-lsp" = "0.11.2"
 
 # For Todo Tree extension and other ripgrep purposes
 "aqua:BurntSushi/ripgrep" = "15.2.0"
 
 # For python
-"aqua:astral-sh/uv" = "0.13.7"
+"aqua:astral-sh/uv" = "0.13.9"
 
 # For GitLab stuff
-"gitlab:gitlab-org/cli" = "1.130.0"
+"gitlab:gitlab-org/cli" = "1.131.0"
 
 # For commit hooks
 "aqua:evilmartians/lefthook" = { version = "2.2.2", symlink_bins = true }
@@ -136,5 +136,5 @@ rust = "1.99.1"
 
 # Documents as code
 "aqua:typst/typst"          = "0.15.1"
-"aqua:typstyle-rs/typstyle" = "0.15.2"
+"aqua:typstyle-rs/typstyle" = "0.15.3"
 cue                         = "0.17.1"
